@@ -1,0 +1,55 @@
+.container {
+    margin: 2rem; 
+    border: solid 1px bold;
+    background-color: rgb(241, 195, 155);
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem
+}
+
+.header h1 {
+    list-style: none;
+}
+
+img {
+    height: 300px;
+    border: solid 1px bold;
+    padding: 2rem;
+}
+
+.headerName {
+    
+    padding: 2rem; 
+}
+
+.headerScore {
+    border: solid 1px;
+}
+
+.ref {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+    margin: 2rem;
+    border: solid 1px;
+    background-color: black;
+
+}
+
+.footer p {
+    margin: 5px;
+    color: white
+}
+

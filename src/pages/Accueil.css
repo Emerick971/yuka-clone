@@ -1,0 +1,29 @@
+.cardProduct {
+    border: solid 1px bold;
+    width: 30%;
+    margin: 2px;
+    background-color: rgb(241, 195, 155);
+    border-radius: 5px;
+}
+
+.cardProduct h2 {
+    list-style: none;
+}
+
+.cardContainer {
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardContainer img {
+    width: 100px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
